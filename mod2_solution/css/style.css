@@ -1,3 +1,171 @@
-#Chicken {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/** Large Devices **/
+@media (min-width: 992px)
+{
+
+	.box {
+	background-color: gray;
+	padding: 35px 0px 10px 10px;
+	border: 1px solid black;
+	margin: 10px;
+	width: 30%;
+	position: relative;
+	float: left;
+	top: 200px;
+}
+
+#sushi-box {
+	background-color: gray;
+	padding: 35px 0px 10px 10px;
+	border: 1px solid black;
+	margin: 10px;
+	width: 30%;
+	position: relative;
+	float: left;
+	top: 200px;
+}
+
+
+.title-box {
+	padding: 3px 10px 3px 10px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	width: 120px;
+	position:  absolute;
+	top: 0;
+	right: 0;
+}
+
+
+
+}
+
+/** Tablet **/
+@media (min-width: 768px) and (max-width: 991px) 
+{
+
+	.box {
+	background-color: gray;
+	padding: 35px 0px 10px 10px;
+	border: 1px solid black;
+	margin: 20px;
+	width: 45%;
+	position: relative;
+	float: left;
+	top: 200px;
+}
+
+#sushi-box {
+	background-color: gray;
+	padding: 35px 10px 10px 10px;
+	border: 1px solid black;
+	margin: 20px;
+	width: 95%;
+	position: relative;
+	float: left;
+	top: 200px;
+}
+
+.title-box {
+	padding: 3px 10px 3px 10px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	width: 120px;
+	position:  absolute;
+	top: 0;
+	right: 0;
+}
+
+
 	
+}
+
+
+/** mobile **/
+@media (max-width:  767px)
+{
+		.box {
+	background-color: gray;
+	padding: 35px 0px 10px 10px;
+	border: 1px solid black;
+	margin: 15px;
+	width: 90%;
+	position: relative;
+	float: left;
+	top: 200px;
+}
+
+#sushi-box {
+	background-color: gray;
+	padding: 35px 0px 10px 10px;
+	border: 1px solid black;
+	margin: 15px;
+	width: 90%;
+	position: relative;
+	float: left;
+	top: 200px;
+}
+
+
+.title-box {
+	padding: 3px 10px 3px 10px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	width: 120px;
+	position:  absolute;
+	top: 0;
+	right: 0;
+}
+}
+
+
+
+#chickenTitleBox {
+	background-color: #d6969b;
+
+}
+
+#beefTitleBox {
+	background-color: #c54345;
+}
+
+#sushiTitleBox {
+	background-color: #e6cf9a;
+}
+
+
+
+.box-title-font {
+	font-weight: bold;
+	font-size: 125%;
+	text-align: center;
+}
+
+#beefTitle {
+	color: white;
+}
+
+h1 {
+	position: relative;
+	font-size: 175%;
+	top:  150px;
+}
+
+p {
+	font-family: "Times New Roman", Times, serif;
+	padding: 0px 10px 0px 10px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+section {
+	clear:  right;
 }
